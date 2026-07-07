@@ -1,0 +1,233 @@
+/* Hytrak Rail — admin login & auth pages */
+:root {
+    --auth-surface: #00081e;
+    --auth-card: rgba(4, 14, 37, 0.92);
+    --auth-ink: #f4f8ff;
+    --auth-muted: #8a9bb8;
+    --auth-accent: #00c8ff;
+    --auth-accent-dark: #0099cc;
+    --auth-red: #c0392b;
+    --auth-border: rgba(0, 200, 255, 0.18);
+    --auth-font-display: 'Barlow Condensed', sans-serif;
+    --auth-font-body: 'Inter', system-ui, sans-serif;
+}
+
+body.hold-transition.login-page {
+    min-height: 100vh;
+    font-family: var(--auth-font-body);
+    background-color: #00081e !important;
+    background-image: none !important;
+    overflow-x: hidden;
+}
+
+body.login-page::after {
+    display: none;
+}
+
+.admin-auth-canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+}
+
+.admin-auth-portal {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.admin-auth-card {
+    width: 100%;
+    max-width: 440px;
+    background: rgba(4, 14, 37, 0.82);
+    border: 1px solid var(--auth-border);
+    border-radius: 20px;
+    box-shadow:
+        0 24px 64px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(0, 200, 255, 0.06) inset;
+    padding: 2.25rem 2rem 2.5rem;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.admin-auth-card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--auth-border);
+}
+
+.admin-auth-card__logo {
+    width: min(100%, 400px);
+    height: auto;
+    display: block;
+}
+
+.admin-auth-card__name {
+    font-family: var(--auth-font-display);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--auth-ink);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: 0 0 0.2rem;
+    line-height: 1.1;
+}
+
+.admin-auth-card__panel {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--auth-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+}
+
+.admin-auth-form {
+    margin: 0;
+}
+
+.admin-auth-field {
+    margin-bottom: 1.1rem;
+}
+
+.admin-auth-label {
+    display: block;
+    font-family: var(--auth-font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--auth-accent);
+    margin-bottom: 0.35rem;
+}
+
+.admin-auth-input {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    font-size: 0.9375rem;
+    font-family: var(--auth-font-body);
+    border: 1px solid var(--auth-border);
+    border-radius: 10px;
+    background: rgba(0, 16, 48, 0.65);
+    color: var(--auth-ink);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-auth-input::placeholder {
+    color: rgba(138, 155, 184, 0.85);
+}
+
+.admin-auth-input:focus {
+    outline: none;
+    border-color: var(--auth-accent);
+    box-shadow: 0 0 0 3px rgba(0, 200, 255, 0.12);
+}
+
+.admin-auth-error {
+    display: block;
+    font-size: 0.78rem;
+    color: #ff8a8a;
+    margin-top: 0.35rem;
+}
+
+.admin-auth-options {
+    margin: 0.25rem 0 1.25rem;
+}
+
+.admin-auth-remember {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.8125rem;
+    color: var(--auth-muted);
+    cursor: pointer;
+    user-select: none;
+    margin: 0;
+}
+
+.admin-auth-remember input {
+    accent-color: var(--auth-accent);
+    cursor: pointer;
+}
+
+.admin-auth-submit {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    font-family: var(--auth-font-display);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000d2e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: var(--auth-accent);
+    transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-auth-submit:hover {
+    background: #33d4ff;
+    transform: translateY(-1px);
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.35);
+}
+
+.admin-auth-submit:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 200, 255, 0.25);
+}
+
+.admin-auth-foot {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.8125rem;
+}
+
+.admin-auth-foot a {
+    color: var(--auth-accent);
+}
+
+.login-page .login-box {
+    width: 100%;
+    max-width: 440px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.login-page .login-box .login-logo {
+    color: var(--auth-ink);
+    font-family: var(--auth-font-display);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-page .login-box-body {
+    background: var(--auth-card);
+    border: 1px solid var(--auth-border);
+    border-radius: 20px;
+    padding: 1.5rem 1.25rem;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 400px) {
+    .admin-auth-card {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .admin-auth-card__name {
+        font-size: 1.25rem;
+    }
+}
