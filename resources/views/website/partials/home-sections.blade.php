@@ -542,7 +542,7 @@
         <div class="tech-visual reveal" style="transition-delay:0.15s;">
           @php
             $techSlides = [
-              ['src' => asset('assets/website/images/engineering-redefined/image-6.png'), 'alt' => 'Engineering gallery photo 1'],
+              ['src' => asset('assets/website/images/engineering-redefined/image-5.png'), 'alt' => 'Engineering gallery photo 1'],
               ['src' => asset('assets/website/images/engineering-redefined/image-6.png'), 'alt' => 'Engineering gallery photo 2'],
             ];
           @endphp
@@ -748,7 +748,7 @@
               loading="lazy"
             />
             <div class="proto-gallery-overlay" aria-hidden="true"></div>
-            <div class="proto-gallery-label">Private Pod Interior</div>
+            <div class="proto-gallery-label">Regional Branding</div>
           </div>
           <div class="proto-gallery-item">
             <img
@@ -757,7 +757,7 @@
               loading="lazy"
             />
             <div class="proto-gallery-overlay" aria-hidden="true"></div>
-            <div class="proto-gallery-label">Bogie Innovation Blueprint</div>
+            <div class="proto-gallery-label">Private Pod Interior</div>
           </div>
 
           <div style="grid-column:span 2; margin-top:16px; text-align:center;">
@@ -1144,11 +1144,10 @@
 
         <article class="news-card reveal">
           <img
-            class="news-card-img"
-            src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=600&q=80&auto=format&fit=crop"
-            alt="Aerial view of California highway corridor — representing the potential Hytrak deployment route"
-            loading="lazy"
-          />
+              src="{{ asset('assets/website/images/news/image-10.png') }}"
+              alt="Hytrak Completes Full-Scale Prototype in Lake County"
+              loading="lazy"
+            />
           <div class="news-card-body">
             <span class="news-tag">Prototype</span>
             <h4>Hytrak Completes Full-Scale Prototype in Lake County</h4>
@@ -1165,7 +1164,7 @@
         <article class="news-card reveal" style="transition-delay:0.08s;">
           <img
             class="news-card-img"
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80&auto=format&fit=crop"
+            src="{{ asset('assets/website/images/news/image-11.png') }}"
             alt="Construction and engineering workers on a modern infrastructure project similar to Hytrak corridor development"
             loading="lazy"
           />
@@ -1185,7 +1184,7 @@
         <article class="news-card reveal" style="transition-delay:0.16s;">
           <img
             class="news-card-img"
-            src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=600&q=80&auto=format&fit=crop"
+            src="{{ asset('assets/website/images/news/image-12.png') }}"
             alt="City skyline with transportation infrastructure representing Hytrak's vision for connecting California cities"
             loading="lazy"
           />
