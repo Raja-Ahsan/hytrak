@@ -117,7 +117,7 @@
             </div>
             <div class="media-rotator__slide" data-slide="2" role="tabpanel" aria-label="Depot simple system video" aria-hidden="true">
               <video class="media-rotator__video" muted loop playsinline preload="metadata">
-                <source src="{{ asset('assets/website/video/depot-simple.mp4') }}" type="video/mp4">
+                <source src="{{ asset('assets/website/video/depot.mp4') }}" type="video/mp4">
               </video>
               <div class="media-rotator__caption">Depot — hub operations &amp; boarding</div>
             </div>
@@ -378,19 +378,19 @@
           @php
             $benefitsSlides = [
               [
-                'src' => asset('assets/website/images/benefits/slide-1.png'),
+                'src' => asset('assets/website/images/why-hytrak/image-1.png'),
                 'alt' => 'Engineering and prototype development for the Hytrak elevated rail system',
               ],
               [
-                'src' => asset('assets/website/images/benefits/slide-2.png'),
+                'src' => asset('assets/website/images/why-hytrak/image-2.png'),
                 'alt' => 'Hytrak infrastructure and development facility',
               ],
               [
-                'src' => asset('assets/website/images/benefits/slide-3.png'),
+                'src' => asset('assets/website/images/why-hytrak/image-3.png'),
                 'alt' => 'Hytrak Rail Corporation business and industry coverage',
               ],
               [
-                'src' => asset('assets/website/images/benefits/slide-4.png'),
+                'src' => asset('assets/website/images/why-hytrak/image-4.png'),
                 'alt' => 'Construction and infrastructure development for next-generation transit systems',
               ],
             ];
@@ -540,15 +540,51 @@
         </div>
 
         <div class="tech-visual reveal" style="transition-delay:0.15s;">
-          <div class="tech-visual-card">
-            <img
-              src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80&auto=format&fit=crop"
-              alt="Aerial view of elevated rail infrastructure demonstrating the Hytrak elevated monorail system concept alongside a highway corridor"
-              loading="lazy"
-            />
-            <div class="tech-visual-badge" aria-label="Prototype Status: Active Testing">
-              <div class="dot" aria-hidden="true"></div>
-              <span>Prototype Active · Lake County, CA</span>
+          @php
+            $techSlides = [
+              ['src' => asset('assets/website/images/engineering-redefined/image-6.png'), 'alt' => 'Engineering gallery photo 1'],
+              ['src' => asset('assets/website/images/engineering-redefined/image-6.png'), 'alt' => 'Engineering gallery photo 2'],
+            ];
+          @endphp
+          <div class="benefits-slider" data-benefits-slider aria-label="Engineering photo gallery">
+            <div class="benefits-slider__viewport">
+              @foreach ($techSlides as $index => $slide)
+                <div
+                  class="benefits-slider__slide{{ $index === 0 ? ' is-active' : '' }}"
+                  data-slide="{{ $index }}"
+                  role="tabpanel"
+                  aria-label="Engineering photo {{ $index + 1 }}"
+                  @if ($index !== 0) aria-hidden="true" @endif
+                >
+                  @if ($slide['src'])
+                    <img
+                      src="{{ $slide['src'] }}"
+                      alt="{{ $slide['alt'] }}"
+                      class="benefits-slider__image"
+                      width="900"
+                      height="675"
+                      loading="{{ $index === 0 ? 'eager' : 'lazy' }}"
+                      decoding="async"
+                    />
+                  @endif
+                </div>
+              @endforeach
+              <div class="tech-visual-badge" aria-label="Prototype Status: Active Testing">
+                <div class="dot" aria-hidden="true"></div>
+                <span>Prototype Active · Lake County, CA</span>
+              </div>
+            </div>
+            <div class="benefits-slider__dots" role="tablist" aria-label="Select engineering photo">
+              @foreach ($techSlides as $index => $slide)
+                <button
+                  type="button"
+                  class="benefits-slider__dot{{ $index === 0 ? ' is-active' : '' }}"
+                  role="tab"
+                  aria-selected="{{ $index === 0 ? 'true' : 'false' }}"
+                  aria-label="Photo {{ $index + 1 }}"
+                  data-benefits-go="{{ $index }}"
+                ></button>
+              @endforeach
             </div>
           </div>
         </div>
@@ -698,7 +734,7 @@
         <div class="proto-gallery reveal" style="transition-delay:0.15s;" aria-label="Hytrak prototype photo gallery">
           <div class="proto-gallery-item" style="grid-column:span 2; aspect-ratio:16/7;">
             <img
-              src="{{ asset('assets/website/images/prototype/image-7.png') }}"
+              src="{{ asset('assets/website/images/real-world-progress/image-7.jpg') }}"
               alt="Hytrak elevated track system construction and infrastructure development — Lake County, California"
               loading="lazy"
             />
@@ -707,7 +743,7 @@
           </div>
           <div class="proto-gallery-item">
             <img
-              src="{{ asset('assets/website/images/pod-interior.svg') }}"
+              src="{{ asset('assets/website/images/real-world-progress/image-8.png') }}"
               alt="Hytrak private 4-passenger pod interior — premium private cabin experience"
               loading="lazy"
             />
@@ -716,7 +752,7 @@
           </div>
           <div class="proto-gallery-item">
             <img
-              src="{{ asset('assets/website/images/bogie-blueprint.svg') }}"
+              src="{{ asset('assets/website/images/real-world-progress/image-9.png') }}"
               alt="Hytrak patented inverted bogie wheel system engineering blueprint"
               loading="lazy"
             />

@@ -1032,6 +1032,9 @@
       .benefit-card.wide { grid-column: span 1; }
     }
 
+    .benefits-slider__viewport .tech-visual-badge {
+      z-index: 2;
+    }
     .benefits-slider__viewport {
       position: relative;
       border-radius: 24px;

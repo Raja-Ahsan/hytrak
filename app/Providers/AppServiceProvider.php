@@ -34,7 +34,9 @@ class AppServiceProvider extends ServiceProvider
             @mkdir($compiledViews, 0755, true);
         }
 
-        $home_page_data = globalData();
-        View::share('home_page_data', $home_page_data);
+        if (! $this->app->runningInConsole()) {
+            $home_page_data = globalData();
+            View::share('home_page_data', $home_page_data);
+        }
     }
 }
