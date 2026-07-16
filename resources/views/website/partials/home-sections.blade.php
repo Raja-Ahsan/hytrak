@@ -1,7 +1,7 @@
 <!-- =============================================
        HERO SECTION
   ============================================= -->
-  <section id="hero" aria-label="Hero — Get places faster">
+  <section id="hero" aria-label="Hero - Get places faster">
 
     <!-- Hero video background -->
     <div class="hero-video-wrap" aria-hidden="true">
@@ -78,7 +78,7 @@
   </section>
 
   <!-- =============================================
-       PRIVATE CAR EXPERIENCE — MEDIA SHOWCASE
+       PRIVATE CAR EXPERIENCE - MEDIA SHOWCASE
   ============================================= -->
   <section id="pod-experience" class="section-pad pod-experience" aria-labelledby="pod-heading">
     <div class="container">
@@ -90,7 +90,7 @@
             <span class="text-cyan">Your Journey.</span>
           </h2>
           <p class="section-desc">
-            Step into a private 4-passenger car — a personal cabin, not a crowded carriage. Non-stop, point-to-point travel with the comfort and privacy of your own vehicle at 250&nbsp;mph.
+            Step into a private 4-passenger car - a personal cabin, not a crowded carriage. Non-stop, point-to-point travel with the comfort and privacy of your own vehicle at 250&nbsp;mph.
           </p>
           <p class="section-desc" style="margin-top:16px;">
             Explore the system from three angles: the rail in motion, the speed, and the depot.
@@ -107,19 +107,19 @@
               <video class="media-rotator__video" muted loop playsinline preload="metadata">
                 <source src="{{ asset('assets/website/video/curve-simple.mp4') }}" type="video/mp4">
               </video>
-              <div class="media-rotator__caption">Curve — elevated rail in motion</div>
+              <div class="media-rotator__caption">Curve - elevated rail in motion</div>
             </div>
             <div class="media-rotator__slide" data-slide="1" role="tabpanel" aria-label="Fast simple system video" aria-hidden="true">
               <video class="media-rotator__video" muted loop playsinline preload="metadata">
                 <source src="{{ asset('assets/website/video/fast-simple.mp4') }}" type="video/mp4">
               </video>
-              <div class="media-rotator__caption">Fast — high-speed point-to-point travel</div>
+              <div class="media-rotator__caption">Fast - high-speed point-to-point travel</div>
             </div>
             <div class="media-rotator__slide" data-slide="2" role="tabpanel" aria-label="Depot simple system video" aria-hidden="true">
               <video class="media-rotator__video" muted loop playsinline preload="metadata">
                 <source src="{{ asset('assets/website/video/depot.mp4') }}" type="video/mp4">
               </video>
-              <div class="media-rotator__caption">Depot — hub operations &amp; boarding</div>
+              <div class="media-rotator__caption">Depot - hub operations &amp; boarding</div>
             </div>
           </div>
           <div class="media-rotator__controls" role="tablist" aria-label="Select video view">
@@ -135,7 +135,7 @@
   <div class="divider-line" aria-hidden="true"></div>
 
   <!-- =============================================
-       SIEMENS PARTNERSHIP — FRONT & CENTER
+       SIEMENS PARTNERSHIP - FRONT & CENTER
   ============================================= -->
    <section id="siemens-partnership" class="section-pad siemens-spotlight" aria-labelledby="siemens-spotlight-heading">
     <div class="container">
@@ -148,7 +148,7 @@
               <span class="text-cyan">With Siemens.</span>
             </h2>
             <p class="section-desc">
-              Hytrak Rail partners with <strong>Siemens</strong> — a global leader in industrial automation, digital twin simulation, and smart infrastructure — to accelerate our elevated rail platform from prototype validation through corridor-scale deployment.
+              Hytrak Rail partners with <strong>Siemens</strong> - a global leader in industrial automation, digital twin simulation, and smart infrastructure - to accelerate our elevated rail platform from prototype validation through corridor-scale deployment.
             </p>
             <ul class="siemens-spotlight__list" role="list">
               <li>Industrial automation &amp; control systems</li>
@@ -214,7 +214,7 @@
               </div>
               <div class="problem-item-text">
                 <h4>Catastrophic Cost Overruns</h4>
-                <p>California's HSR project ballooned to $105+ billion. Per-mile costs exceed $200M — unviable for most corridors.</p>
+                <p>California's HSR project ballooned to $105+ billion. Per-mile costs exceed $200M - unviable for most corridors.</p>
               </div>
             </div>
             <div class="problem-item">
@@ -241,7 +241,7 @@
               </div>
               <div class="problem-item-text">
                 <h4>Hyperloop Is Still Theoretical</h4>
-                <p>Decades of promises, billions invested — no commercially viable hyperloop system exists or is near deployment.</p>
+                <p>Decades of promises, billions invested - no commercially viable hyperloop system exists or is near deployment.</p>
               </div>
             </div>
           </div>
@@ -258,7 +258,7 @@
               </div>
               <div class="solution-item-text">
                 <h4>~5% of Conventional Rail Cost</h4>
-                <p>Lightweight elevated towers require minimal land acquisition — civil works cost a fraction of traditional high-speed rail per mile.</p>
+                <p>Lightweight elevated towers require minimal land acquisition - civil works cost a fraction of traditional high-speed rail per mile.</p>
               </div>
             </div>
             <div class="solution-item">
@@ -323,7 +323,7 @@
           <div class="step-num" aria-label="Step 2">02</div>
           <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
           <h4>Inverted Rail Beam</h4>
-          <p>Cars suspend below the rail using a gravity-assisted bogie system — physics itself keeps the car stable and derailment-proof at speed.</p>
+          <p>Cars suspend below the rail using a gravity-assisted bogie system - physics itself keeps the car stable and derailment-proof at speed.</p>
         </div>
         <div class="step-card reveal" style="transition-delay:0.16s;">
           <div class="step-num" aria-label="Step 3">03</div>
@@ -335,7 +335,7 @@
           <div class="step-num" aria-label="Step 4">04</div>
           <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
           <h4>App-Based Booking</h4>
-          <p>Book your car like an Uber — choose origin, destination, departure time. Arrive at your hub, board instantly, arrive refreshed.</p>
+          <p>Book your car like an Uber - choose origin, destination, departure time. Arrive at your hub, board instantly, arrive refreshed.</p>
         </div>
       </div>
 
@@ -364,10 +364,10 @@
             <span class="text-cyan">Without the Compromise.</span>
           </h2>
           <p class="section-desc">
-            Every design decision in Hytrak was made to maximize speed, safety, sustainability, and affordability simultaneously — not trade one for another.
+            Every design decision in Hytrak was made to maximize speed, safety, sustainability, and affordability simultaneously - not trade one for another.
           </p>
           <ul class="benefits-key-list" role="list" aria-label="Key Hytrak benefits">
-            <li>Operates in rain, snow, wind &amp; fog — fully weatherproof</li>
+            <li>Operates in rain, snow, wind &amp; fog - fully weatherproof</li>
             <li>Estimated $1M revenue per mile annually</li>
             <li>20,000 passengers per day per system</li>
             <li>Buildable alongside existing highway right-of-way</li>
@@ -456,7 +456,7 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <h4>All-Weather Reliable</h4>
-          <p>Fully enclosed cars and elevated track mean no weather cancellations — ever.</p>
+          <p>Fully enclosed cars and elevated track mean no weather cancellations - ever.</p>
         </div>
         <!-- Row 2 -->
         <div class="benefit-card reveal" style="transition-delay:0.0s;">
@@ -486,7 +486,7 @@
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           </div>
           <h4>Easy Hub Access</h4>
-          <p>Compact hubs integrate into city edges — no massive terminal infrastructure required.</p>
+          <p>Compact hubs integrate into city edges - no massive terminal infrastructure required.</p>
         </div>
       </div>
 
@@ -506,7 +506,7 @@
             <span class="text-cyan">Redefined.</span>
           </h2>
           <p class="section-desc" style="margin-bottom:32px;">
-            Hytrak's gravity-augmented inverted monorail uses physics to its advantage — the heavier the load, the better the contact grip. A patented, proven system unlike anything in commercial transit today.
+            Hytrak's gravity-augmented inverted monorail uses physics to its advantage - the heavier the load, the better the contact grip. A patented, proven system unlike anything in commercial transit today.
           </p>
           <p class="section-desc">
             No vacuum tubes. No magnetic levitation. No billion-dollar tunnels. Just elegant mechanical engineering applied to a modern problem.
@@ -620,7 +620,7 @@
                 Engineering &amp; Automation Partnership
               </h3>
               <p class="tech-partnership__desc">
-                Hytrak Rail partners with <strong>Siemens</strong> to bring world-class industrial automation, digital twin simulation, and smart infrastructure expertise to our elevated rail platform — from prototype validation through corridor-scale deployment.
+                Hytrak Rail partners with <strong>Siemens</strong> to bring world-class industrial automation, digital twin simulation, and smart infrastructure expertise to our elevated rail platform - from prototype validation through corridor-scale deployment.
               </p>
               <a
                 href="https://www.siemens.com/en-us/"
@@ -712,7 +712,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
               </div>
               <div class="timeline-body">
-                <span>2024–2025 — In Progress</span>
+                <span>2024–2025 - In Progress</span>
                 <h4>Investment & Pilot Corridor Development</h4>
                 <p>Seeking strategic investment partners and government agencies for pilot corridor implementation in California, Nevada, and Texas.</p>
               </div>
@@ -722,7 +722,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/></svg>
               </div>
               <div class="timeline-body">
-                <span>2026+ — Next Phase</span>
+                <span>2026+ - Next Phase</span>
                 <h4>First Commercial Corridor Launch</h4>
                 <p>Target: Initial commercial pilot corridor with fully operational cars and public booking platform.</p>
               </div>
@@ -735,7 +735,7 @@
           <div class="proto-gallery-item" style="grid-column:span 2; aspect-ratio:16/7;">
             <img
               src="{{ asset('assets/website/images/real-world-progress/image-7.jpg') }}"
-              alt="Hytrak elevated track system construction and infrastructure development — Lake County, California"
+              alt="Hytrak elevated track system construction and infrastructure development - Lake County, California"
               loading="lazy"
             />
             <div class="proto-gallery-overlay" aria-hidden="true"></div>
@@ -744,7 +744,7 @@
           <div class="proto-gallery-item">
             <img
               src="{{ asset('assets/website/images/real-world-progress/image-8.png') }}"
-              alt="Hytrak private 4-passenger pod interior — premium private cabin experience"
+              alt="Hytrak private 4-passenger pod interior - premium private cabin experience"
               loading="lazy"
             />
             <div class="proto-gallery-overlay" aria-hidden="true"></div>
@@ -796,7 +796,7 @@
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           </div>
           <h4>System Design & Engineering</h4>
-          <p>Full corridor planning, structural engineering, and system design by Mark Mitchell, P.E. and the Hytrak engineering team — tailored to your terrain and travel demand.</p>
+          <p>Full corridor planning, structural engineering, and system design by Mark Mitchell, P.E. and the Hytrak engineering team - tailored to your terrain and travel demand.</p>
         </div>
 
         <div class="service-card reveal" style="transition-delay:0.07s;">
@@ -814,7 +814,7 @@
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 14 14"/></svg>
           </div>
           <h4>Pilot Project Implementation</h4>
-          <p>Turn a corridor into reality. Hytrak manages full-scale pilot implementation — from environmental review through construction, commissioning, and operations launch.</p>
+          <p>Turn a corridor into reality. Hytrak manages full-scale pilot implementation - from environmental review through construction, commissioning, and operations launch.</p>
         </div>
 
         <div class="service-card reveal" style="transition-delay:0s;">
@@ -832,7 +832,7 @@
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
           </div>
           <h4>Manufacturing & Deployment</h4>
-          <p>Modular, repeatable car and tower manufacturing designed for rapid scaled production. From the factory floor to operational track — we manage it all.</p>
+          <p>Modular, repeatable car and tower manufacturing designed for rapid scaled production. From the factory floor to operational track - we manage it all.</p>
         </div>
 
         <div class="service-card reveal" style="transition-delay:0.14s;">
@@ -857,7 +857,7 @@
   </section>
 
   <!-- =============================================
-       CARBON IMPACT — AUSTIN / SAN ANTONIO CORRIDOR
+       CARBON IMPACT - AUSTIN / SAN ANTONIO CORRIDOR
   ============================================= -->
   <section id="carbon-impact" class="section-pad carbon-impact" aria-labelledby="carbon-heading">
     <div class="container">
@@ -868,7 +868,7 @@
           Per Corridor
         </h2>
         <p class="section-desc mx-auto" style="text-align:center;">
-          Hytrak's fully electric, lightweight pods deliver zero operational emissions — with a construction footprint a fraction of conventional rail. Our preliminary analysis of the proposed <strong>Amazon · Austin to San Antonio</strong> corridor illustrates the scale of impact.
+          Hytrak's fully electric, lightweight pods deliver zero operational emissions - with a construction footprint a fraction of conventional rail. Our preliminary analysis of the proposed <strong>Amazon · Austin to San Antonio</strong> corridor illustrates the scale of impact.
         </p>
       </div>
 
@@ -876,7 +876,7 @@
         <div class="carbon-stat-card reveal">
           <div class="carbon-stat-card__num">~82</div>
           <div class="carbon-stat-card__unit">miles</div>
-          <p>Corridor length — Austin hub to San Antonio hub along the I-35 tech corridor</p>
+          <p>Corridor length - Austin hub to San Antonio hub along the I-35 tech corridor</p>
         </div>
         <div class="carbon-stat-card reveal" style="transition-delay:0.06s;">
           <div class="carbon-stat-card__num">~185K</div>
@@ -891,7 +891,7 @@
         <div class="carbon-stat-card reveal" style="transition-delay:0.18s;">
           <div class="carbon-stat-card__num">Zero</div>
           <div class="carbon-stat-card__unit">operational</div>
-          <p>Direct carbon emissions during daily operation — 100% electric propulsion</p>
+          <p>Direct carbon emissions during daily operation - 100% electric propulsion</p>
         </div>
       </div>
 
@@ -899,13 +899,13 @@
         <div class="carbon-impact__detail-inner">
           <h3>Amazon · Austin–San Antonio Corridor Study</h3>
           <p>
-            Hytrak's preliminary corridor analysis models a high-frequency private-car network connecting major employment centers — including Amazon's Austin-area operations — to San Antonio in under 25 minutes at 250&nbsp;mph. Compared to the ~2.5-hour drive or short-haul flight alternative, the system projects substantial per-passenger carbon reductions while eliminating highway congestion growth along I-35.
+            Hytrak's preliminary corridor analysis models a high-frequency private-car network connecting major employment centers - including Amazon's Austin-area operations - to San Antonio in under 25 minutes at 250&nbsp;mph. Compared to the ~2.5-hour drive or short-haul flight alternative, the system projects substantial per-passenger carbon reductions while eliminating highway congestion growth along I-35.
           </p>
           <ul class="carbon-impact__bullets" role="list">
             <li><strong>20,000+ daily passengers</strong> shifted from auto and short-haul air</li>
             <li><strong>~704 MPG equivalent</strong> energy efficiency per passenger-mile</li>
-            <li><strong>Minimal land disruption</strong> — slender towers alongside existing easements</li>
-            <li><strong>No diesel or jet fuel</strong> — grid-powered electric operation</li>
+            <li><strong>Minimal land disruption</strong> - slender towers alongside existing easements</li>
+            <li><strong>No diesel or jet fuel</strong> - grid-powered electric operation</li>
           </ul>
           <a href="{{ route('sustainability') }}" class="btn-primary" aria-label="Read the full carbon impact analysis">
             Full Carbon Impact Analysis
@@ -1191,7 +1191,7 @@
           <div class="news-card-body">
             <span class="news-tag">California</span>
             <h4>While California HSR Costs Soar, Hytrak Offers a Smarter Path</h4>
-            <p>As the state's traditional high-speed rail program faces renewed scrutiny over costs and delays, Hytrak's elevated system — built for roughly 5% of conventional rail project costs — presents a compelling alternative for state legislators and investors.</p>
+            <p>As the state's traditional high-speed rail program faces renewed scrutiny over costs and delays, Hytrak's elevated system - built for roughly 5% of conventional rail project costs - presents a compelling alternative for state legislators and investors.</p>
             <div class="news-card-meta">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
               <span>January 2025</span>
@@ -1199,8 +1199,7 @@
               <span>Hytrak Rail</span>
             </div>
           </div>
-        </article>
-
+        </article> 
       </div>
     </div>
   </section>
@@ -1216,10 +1215,8 @@
           Leadership with the <span class="text-cyan">Expertise</span><br />
           to Deliver
         </h2>
-      </div>
-
-      <div class="team-grid">
-
+      </div> 
+      <div class="team-grid"> 
         <!-- Featured: Mark Mitchell -->
         <article class="team-card featured reveal" style="transition-delay:0s;" aria-label="Mark Mitchell, Founder and CEO">
           <img
@@ -1232,57 +1229,19 @@
             <div class="team-role">Founder & Chief Executive Officer</div>
             <h3>Mark Mitchell, P.E.</h3>
             <p>
-              Mark Mitchell is a licensed Professional Engineer with decades of experience in complex civil and infrastructure development across California. As founder and CEO of Hytrak Rail Corporation, he conceived, patented, and built the inverted monorail system from the ground up — from initial concept through full-scale prototype construction in Lake County, CA.
+              Mark Mitchell is a licensed Professional Engineer with decades of experience in complex civil and infrastructure development across California. As founder and CEO of Hytrak Rail Corporation, he conceived, patented, and built the inverted monorail system from the ground up - from initial concept through full-scale prototype construction in Lake County, CA.
             </p>
             <p style="margin-top:12px;">
-              Mark's background spans residential and commercial development project management, structural engineering, and transportation infrastructure — giving Hytrak a uniquely cross-disciplinary founding perspective.
+              Mark's background spans residential and commercial development project management, structural engineering, and transportation infrastructure - giving Hytrak a uniquely cross-disciplinary founding perspective.
             </p>
             <div style="margin-top:24px; display:flex; gap:10px; flex-wrap:wrap;">
-              <div class="tag-pill">Licensed P.E. — California</div>
+              <div class="tag-pill">Licensed P.E. - California</div>
               <div class="tag-pill">Patent Holder</div>
               <div class="tag-pill">Lakeport, CA</div>
             </div>
           </div>
-        </article>
-
-        {{-- <!-- Supporting team cards -->
-        <article class="team-card reveal" style="transition-delay:0.08s;" aria-label="Engineering team member">
-          <img
-            class="team-card-photo"
-            src="{{ asset('assets/website/images/92.jpeg') }}"
-            alt="Professional portrait of a Hytrak structural engineering team member"
-            loading="lazy"
-          />
-          <div class="team-card-body">
-            <div class="team-role">Structural Engineering</div>
-            <h4>Engineering Team</h4>
-            <p>A dedicated team of structural and mechanical engineers supporting prototype development, testing, and corridor design for Hytrak deployments.</p>
-          </div>
-        </article>
-
-        <article class="team-card reveal" style="transition-delay:0.16s;" aria-label="Business development team member">
-          <img
-            class="team-card-photo"
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&auto=format&fit=crop"
-            alt="Professional portrait of a Hytrak business development team member"
-            loading="lazy"
-          />
-          <div class="team-card-body">
-            <div class="team-role">Business Development</div>
-            <h4>Partnership Team</h4>
-            <p>Specialists in public-private partnership structuring, investor relations, and government liaison for municipal and regional transit agencies.</p>
-          </div>
-        </article> --}}
-
-      </div>
-
-     {{--  <div class="reveal" style="text-align:center; margin-top:40px;">
-        <a href="{{ route('index') }}#team" class="btn-ghost" aria-label="Learn more about the full Hytrak team">
-          Meet the Full Team
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
-        </a>
-      </div> --}}
-
+        </article> 
+      </div> 
     </div>
   </section>
 
@@ -1298,7 +1257,7 @@
           <span class="text-cyan">Transportation in Your Region?</span>
         </h2>
         <p class="reveal">
-          Whether you're a government agency, private investor, transit authority, or real estate developer — Hytrak is ready to work with you to bring next-generation intercity travel to your corridor.
+          Whether you're a government agency, private investor, transit authority, or real estate developer - Hytrak is ready to work with you to bring next-generation intercity travel to your corridor.
         </p>
         <div class="cta-actions reveal">
           {{-- <a href="{{ route('index') }}#quick-contact" class="btn-primary" aria-label="Schedule a demo with Hytrak Rail">

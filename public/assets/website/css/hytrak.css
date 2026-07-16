@@ -135,7 +135,7 @@
     .nav-logo svg,
     .nav-logo-img {
       display: block;
-      height: 50px;
+      /* height: 50px; */
       width: auto;
       max-width: min(420px, calc(100vw - 120px));
       object-fit: contain;

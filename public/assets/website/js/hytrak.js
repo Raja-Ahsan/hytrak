@@ -49,7 +49,7 @@
       if (e.key === 'Escape' && menuOpen) toggleMenu(false);
     });
 
-    /* -------- Intersection Observer — Reveal -------- */
+    /* -------- Intersection Observer - Reveal -------- */
     const revealEls = document.querySelectorAll('.reveal');
     const revealObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

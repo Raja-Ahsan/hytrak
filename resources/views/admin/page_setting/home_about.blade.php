@@ -314,11 +314,7 @@
 							<a href="{{ route('page.index') }}" class="btn btn-sm">
 								<i class="fa fa-arrow-left"></i> Back
 							</a>
-						</div>
-
-						@if (session('message'))
-						<div class="home-about-alert">{{ session('message') }}</div>
-						@endif
+						</div> 
 
 						<div class="section-block">
 							 

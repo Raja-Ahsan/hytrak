@@ -2,17 +2,15 @@
     <div class="container">
         <div class="footer-top">
             <div class="footer-brand-block">
-                <a href="{{ route('index') }}" class="footer-logo" aria-label="Hytrak Rail — Home">
+                <a href="{{ route('index') }}" class="footer-logo" aria-label="Hytrak Rail - Home">
                     
                     <img
                         src="{{ asset('public/admin/assets/images/page') }}/{{ $home_page_data['header_logo'] }}"
                         alt="Hytrak Rail Corporation"
-                        class="footer-logo-img"
-                        width="350"
-                        height="55"
+                        class="footer-logo-img" 
                     />
                 </a>
-                <p class="footer-tagline">Private cars. 250 mph. Zero emissions. Elevated high-speed rail — built and proven in Lake County, California.</p>
+                <p class="footer-tagline">Private cars. 250 mph. Zero emissions. Elevated high-speed rail - built and proven in Lake County, California.</p>
                 <div class="footer-contact-pills">
                     <span>Lakeport, CA 95453</span>
                     <span>Patented Technology</span>
@@ -65,7 +63,7 @@
         <div class="footer-newsletter-bar">
             <div class="footer-newsletter-copy">
                 <h4>Stay in the loop</h4>
-                <p>Hytrak milestones, pilot updates, and investment news — straight to your inbox.</p>
+                <p>Hytrak milestones, pilot updates, and investment news - straight to your inbox.</p>
             </div>
             <form class="newsletter-form" action="#" method="post" aria-label="Newsletter signup">
                 @csrf

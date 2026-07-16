@@ -5,7 +5,7 @@
             @php
                 $headerLogo = trim($home_page_data['header_logo'] ?? '');
             @endphp
-            <a href="{{ route('index') }}" class="nav-logo" aria-label="Hytrak Rail Corporation — Home">
+            <a href="{{ route('index') }}" class="nav-logo" aria-label="Hytrak Rail Corporation - Home">
                 @if ($headerLogo !== '')
                     <img
                         src="{{ asset('public/admin/assets/images/page/' . $headerLogo) }}"

@@ -11,7 +11,7 @@
                 @php
                 $headerLogo = trim($home_page_data['header_logo'] ?? '');
                 @endphp
-                <a href="{{ route('index') }}" class="admin-auth-card__logo" aria-label="Hytrak Rail Corporation — Home">
+                <a href="{{ route('index') }}" class="admin-auth-card__logo" aria-label="Hytrak Rail Corporation - Home">
                 @if ($headerLogo !== '')
                     <img
                         src="{{ asset('public/admin/assets/images/page') }}/{{ $home_page_data['header_logo'] }}"
