@@ -261,7 +261,6 @@
 	.btn-update:active {
 		transform: translateY(0);
 	}
-
 	.bullet-point-row {
 		display: flex;
 		gap: 8px;
@@ -299,7 +298,6 @@
 	}
 </style>
 @endpush
-
 
 <section class="content page-admin">
 	<div class="row">
